@@ -1,0 +1,1 @@
+const express=require('express');const path=require('path');const app=express();app.disable('x-powered-by');app.use(express.static(path.join(__dirname,'public')));app.get('/api/health',(req,res)=>res.json({ok:true,game:'NijaLife 3D development build'}));const port=process.env.PORT||3000;app.listen(port,'0.0.0.0',()=>console.log('NijaLife 3D listening on '+port));

@@ -1,0 +1,15 @@
+{
+  "name": "nijalife-3d",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NijaLife 3D browser development build",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
